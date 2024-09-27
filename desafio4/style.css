@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.container
+{
+    display: flex;
+    background-color: rgb(116, 182, 49);
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 25px;
+    justify-content: space-around;
+}
+
+.caixa1
+{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 158, 171);
+    align-self: auto;
+    border-radius: 5px;
+    color: aliceblue;
+    
+}
+
+.caixa2
+{
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 158, 171);
+    align-self: stretch;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.caixa3
+{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 158, 171);
+    align-self: center;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.caixa4
+{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 158, 171);
+    align-self: flex-end;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.caixa5
+{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 158, 171);
+    align-self: flex-start;
+    border-radius: 5px;
+    color: aliceblue;
+}
