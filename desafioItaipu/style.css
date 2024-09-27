@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo
+{
+    width: 1320px;
+    margin: 0 auto;
+    border: dotted 2px black;
+}
+
+.site
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho
+{
+    height: 120px;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
+}
+
+.cabecalho .conteudo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho .conteudo .logo
+{
+    width: 165px;
+}
+
+.cabecalho .conteudo .menus ul
+{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
